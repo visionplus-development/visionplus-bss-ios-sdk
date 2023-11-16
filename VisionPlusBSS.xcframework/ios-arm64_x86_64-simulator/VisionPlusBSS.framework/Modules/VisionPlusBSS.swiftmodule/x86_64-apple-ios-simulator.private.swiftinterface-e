@@ -1,0 +1,52 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VisionPlusBSS
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AuthenticationServices
+import CoreGraphics
+import Foundation
+import Swift
+import UIKit.UIGeometry
+import UIKit
+@_exported import VisionPlusBSS
+import _Concurrency
+import _StringProcessing
+public protocol VPAuthDelegate : AnyObject {
+  func didAuthenticationSuccess(token: Swift.String, provider: VisionPlusBSS.VPAuthProvider)
+  func didAuthenticationFailure(error: any Swift.Error)
+}
+@_hasMissingDesignatedInitializers public class VisionPlusBSS {
+  public static let shared: VisionPlusBSS.VisionPlusBSS
+  weak public var authDelegate: (any VisionPlusBSS.VPAuthDelegate)?
+  public var localize: Swift.String
+  public var key: Swift.String?
+  @objc deinit
+}
+extension VisionPlusBSS.VisionPlusBSS {
+  public func loginViewController() -> UIKit.UIViewController
+  public func presentLoginScreen(_ vc: UIKit.UIViewController, animated: Swift.Bool = true)
+  public func pushLoginScreen(_ navigation: UIKit.UINavigationController?, animated: Swift.Bool = true)
+  public func registerViewController() -> UIKit.UIViewController
+  public func presentRegisterScreen(_ vc: UIKit.UIViewController, animated: Swift.Bool = true)
+  public func pushRegisterScreen(_ navigation: UIKit.UINavigationController?, animated: Swift.Bool = true)
+  public func verifyLinkViewController() -> UIKit.UIViewController
+  public func presentVerifyLinkScreen(_ vc: UIKit.UIViewController, animated: Swift.Bool = true)
+  public func pushVerifyLinkScreen(_ navigation: UIKit.UINavigationController?, animated: Swift.Bool = true)
+  public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
+}
+public enum VPAuthProvider : Swift.String {
+  case apple
+  case google
+  case facebook
+  case email
+  case phone
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension VisionPlusBSS.VPAuthProvider : Swift.Equatable {}
+extension VisionPlusBSS.VPAuthProvider : Swift.Hashable {}
+extension VisionPlusBSS.VPAuthProvider : Swift.RawRepresentable {}
