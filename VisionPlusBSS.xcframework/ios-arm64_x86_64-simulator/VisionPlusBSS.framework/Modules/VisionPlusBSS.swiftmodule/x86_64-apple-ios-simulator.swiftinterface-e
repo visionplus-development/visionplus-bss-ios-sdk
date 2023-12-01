@@ -29,9 +29,9 @@ extension VisionPlusBSS.VisionPlusBSS {
   public func registerViewController() -> UIKit.UIViewController
   public func presentRegisterScreen(_ vc: UIKit.UIViewController, animated: Swift.Bool = true)
   public func pushRegisterScreen(_ navigation: UIKit.UINavigationController?, animated: Swift.Bool = true)
-  public func verifyLinkViewController() -> UIKit.UIViewController
-  public func presentVerifyLinkScreen(_ vc: UIKit.UIViewController, animated: Swift.Bool = true)
-  public func pushVerifyLinkScreen(_ navigation: UIKit.UINavigationController?, animated: Swift.Bool = true)
+  public func verifyLinkViewController(sessionId: Swift.String, identity: Swift.String) -> UIKit.UIViewController
+  public func presentVerifyLinkScreen(_ vc: UIKit.UIViewController, animated: Swift.Bool = true, sessionId: Swift.String, identity: Swift.String)
+  public func pushVerifyLinkScreen(_ navigation: UIKit.UINavigationController?, animated: Swift.Bool = true, sessionId: Swift.String, identity: Swift.String)
   public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
   public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
 }
