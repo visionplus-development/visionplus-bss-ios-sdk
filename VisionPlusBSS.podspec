@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                       = 'VisionPlusBSS'
-    spec.version                    = '0.1.0'
+    spec.version                    = '0.1.1'
     spec.license                    = {
         :type => 'MIT',
         :text => <<-LICENSE
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
     spec.readme                     = 'https://raw.githubusercontent.com/visionplus-development/visionplus-bss-ios-sdk/main/README.md'
     spec.authors                    = {
         'Erwindo Sianipar' => 'erwindo.sianipar@mncgroup.com',
-        'Muhammad Affan' => 'muhammad.affan@mncgroup.com'
+        'Muhammad Affan' => 'muhammad.affan@mncgroup.com',
+        'Handi Deyana' => 'handi.deyana@mncgroup.com'
     }
 end
