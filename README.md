@@ -133,9 +133,3 @@ extension ViewController: VPAuthDelegate {
     }
 }
 ```
-
-## 4. Development or Build on Real Device
-
-Update: 02 December 2023
-
-> During the development, when integrate the VisionPlusBSS iOS SDK with your app, if you want to build your app on real device, you need to signing your app with valid team or Signin Certificate: `MNC Sky Vision, PT Tbk`
