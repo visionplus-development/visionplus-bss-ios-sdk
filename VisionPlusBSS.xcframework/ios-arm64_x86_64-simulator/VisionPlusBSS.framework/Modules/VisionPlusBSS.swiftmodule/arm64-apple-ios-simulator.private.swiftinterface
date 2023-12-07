@@ -11,9 +11,17 @@ import UIKit
 @_exported import VisionPlusBSS
 import _Concurrency
 import _StringProcessing
-public protocol VPAuthDelegate : AnyObject {
-  func didAuthenticationSuccess(token: Swift.String, provider: VPAuthProvider)
-  func didAuthenticationFailure(error: any Swift.Error)
+public enum VPAuthProvider : Swift.String {
+  case apple
+  case google
+  case facebook
+  case email
+  case phone
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 @_hasMissingDesignatedInitializers public class VisionPlusBSS {
   public static let shared: VisionPlusBSS
@@ -35,17 +43,9 @@ extension VisionPlusBSS {
   public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
   public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
 }
-public enum VPAuthProvider : Swift.String {
-  case apple
-  case google
-  case facebook
-  case email
-  case phone
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
+public protocol VPAuthDelegate : AnyObject {
+  func didAuthenticationSuccess(token: Swift.String, provider: VPAuthProvider)
+  func didAuthenticationFailure(error: any Swift.Error)
 }
 extension VPAuthProvider : Swift.Equatable {}
 extension VPAuthProvider : Swift.Hashable {}
