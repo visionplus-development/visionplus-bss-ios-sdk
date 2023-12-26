@@ -11,6 +11,10 @@ import UIKit
 @_exported import VisionPlusBSS
 import _Concurrency
 import _StringProcessing
+public struct ConfigModel : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum VPAuthProvider : Swift.String {
   case apple
   case google
@@ -28,6 +32,8 @@ public enum VPAuthProvider : Swift.String {
   weak public var authDelegate: (any VPAuthDelegate)?
   public var localize: Swift.String
   public var key: Swift.String?
+  public static var publicConfig: ConfigModel
+  public static var countriesConfig: [CountryModel]
   @objc deinit
 }
 extension VisionPlusBSS {
@@ -46,6 +52,9 @@ extension VisionPlusBSS {
 public protocol VPAuthDelegate : AnyObject {
   func didAuthenticationSuccess(token: Swift.String, provider: VPAuthProvider)
   func didAuthenticationFailure(error: any Swift.Error)
+}
+public struct CountryModel : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension VPAuthProvider : Swift.Equatable {}
 extension VPAuthProvider : Swift.Hashable {}
