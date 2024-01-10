@@ -5,10 +5,12 @@
 import AuthenticationServices
 import CoreGraphics
 import Foundation
+import SafariServices
 import Swift
 import UIKit.UIGeometry
 import UIKit
 @_exported import VisionPlusBSS
+import WebKit
 import _Concurrency
 import _StringProcessing
 public struct ConfigModel : Swift.Codable {
@@ -53,7 +55,8 @@ public protocol VPAuthDelegate : AnyObject {
   func didAuthenticationSuccess(token: Swift.String, provider: VisionPlusBSS.VPAuthProvider)
   func didAuthenticationFailure(error: any Swift.Error)
 }
-public struct CountryModel : Swift.Decodable {
+public struct CountryModel : Swift.Decodable, Swift.Equatable {
+  public static func == (a: VisionPlusBSS.CountryModel, b: VisionPlusBSS.CountryModel) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
 extension VisionPlusBSS.VPAuthProvider : Swift.Equatable {}
