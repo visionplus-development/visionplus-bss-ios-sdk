@@ -5890,71 +5890,78 @@
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
+      "kind": "StringLiteral",
+      "offset": 1398,
+      "length": 61,
+      "value": "\"🟥 Use default SDK configuration while error setup config\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "IntegerLiteral",
-      "offset": 1278,
+      "offset": 1725,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "StringLiteral",
-      "offset": 1415,
+      "offset": 1851,
       "length": 5,
       "value": "\"+62\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
-      "length": 54,
-      "value": "\"🟥 Use default SDK configuration while error setup\""
+      "offset": 2245,
+      "length": 64,
+      "value": "\"🟥 Use default SDK configuration while error setup countries\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 2344,
+      "offset": 2637,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 2628,
+      "offset": 2921,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 2950,
+      "offset": 3243,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 3240,
+      "offset": 3533,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 3624,
+      "offset": 3917,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 3995,
+      "offset": 4288,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "Dictionary",
-      "offset": 4598,
+      "offset": 4891,
       "length": 3,
       "value": "[]"
     },
@@ -7577,106 +7584,78 @@
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 419,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 557,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 856,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 964,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
       "kind": "StringLiteral",
-      "offset": 1558,
+      "offset": 1646,
       "length": 55,
       "value": "\"https:\/\/www.visionplus.id\/websupport\/terms-conditions\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
       "kind": "StringLiteral",
-      "offset": 1639,
+      "offset": 1727,
       "length": 55,
       "value": "\"https:\/\/www.visionplus.id\/websupport\/terms-conditions\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
       "kind": "StringLiteral",
-      "offset": 1768,
+      "offset": 1856,
       "length": 36,
       "value": "\"https:\/\/temp-bss-stg.visionplus.id\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
       "kind": "StringLiteral",
-      "offset": 1824,
+      "offset": 1912,
       "length": 60,
       "value": "\"https:\/\/supports.visionplus.id\/vplus\/help\/subs-transaction\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
       "kind": "StringLiteral",
-      "offset": 2144,
+      "offset": 2232,
       "length": 5,
       "value": "\"+62\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
       "kind": "StringLiteral",
-      "offset": 2157,
+      "offset": 2245,
       "length": 11,
       "value": "\"Indonesia\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
       "kind": "StringLiteral",
-      "offset": 2176,
+      "offset": 2264,
       "length": 87,
       "value": "\"https:\/\/raw.githubusercontent.com\/twitter\/twemoji\/master\/assets\/72x72\/1f1ee-1f1e9.png\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
       "kind": "BooleanLiteral",
-      "offset": 2277,
+      "offset": 2365,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
       "kind": "StringLiteral",
-      "offset": 2308,
+      "offset": 2396,
       "length": 5,
       "value": "\"+60\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
       "kind": "StringLiteral",
-      "offset": 2321,
+      "offset": 2409,
       "length": 10,
       "value": "\"Malaysia\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSSOrchestrator.swift",
       "kind": "StringLiteral",
-      "offset": 2339,
+      "offset": 2427,
       "length": 87,
       "value": "\"https:\/\/raw.githubusercontent.com\/twitter\/twemoji\/master\/assets\/72x72\/1f1f2-1f1fe.png\""
     },

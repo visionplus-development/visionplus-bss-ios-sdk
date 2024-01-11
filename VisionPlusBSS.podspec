@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                       = 'VisionPlusBSS'
-    spec.version                    = '0.2.0'
+    spec.version                    = '0.2.1'
     spec.license                    = {
         :type => 'MIT',
         :text => <<-LICENSE
