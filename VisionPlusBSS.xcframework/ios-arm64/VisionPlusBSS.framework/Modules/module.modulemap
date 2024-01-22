@@ -1,0 +1,11 @@
+framework module VisionPlusBSS {
+  umbrella header "VisionPlusBSS.h"
+
+  export *
+  module * { export * }
+}
+
+module VisionPlusBSS.Swift {
+  header "VisionPlusBSS-Swift.h"
+  requires objc
+}
