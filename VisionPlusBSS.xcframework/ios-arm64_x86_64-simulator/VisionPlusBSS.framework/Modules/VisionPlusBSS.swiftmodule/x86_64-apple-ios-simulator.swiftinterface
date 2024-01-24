@@ -52,7 +52,7 @@ extension VisionPlusBSS {
   public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
 }
 public protocol VPAuthDelegate : AnyObject {
-  func didAuthenticationSuccess(token: Swift.String, provider: VPAuthProvider)
+  func didAuthenticationSuccess(token: Swift.String, provider: VPAuthProvider, info: [Swift.String : Any])
   func didAuthenticationFailure(error: any Swift.Error)
 }
 public struct CountryModel : Swift.Decodable, Swift.Equatable {
