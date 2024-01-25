@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZYxHgsANToNKRX8XloUJ+CMCp4Y=
+		h80dz0dXQFJeeNpCtODktgtMPKA=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZYxHgsANToNKRX8XloUJ+CMCp4Y=
+		h80dz0dXQFJeeNpCtODktgtMPKA=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -249,7 +249,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K+wlcT0/2JJ4ahqB5pPVcSlk2GFB1Cwt8aeVZPqfI94=
+			hYbpn4bTbd6TwHj/4j6D1PuBvT2Sx/VG2CFo4d0uS6E=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -284,7 +284,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K+wlcT0/2JJ4ahqB5pPVcSlk2GFB1Cwt8aeVZPqfI94=
+			hYbpn4bTbd6TwHj/4j6D1PuBvT2Sx/VG2CFo4d0uS6E=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
