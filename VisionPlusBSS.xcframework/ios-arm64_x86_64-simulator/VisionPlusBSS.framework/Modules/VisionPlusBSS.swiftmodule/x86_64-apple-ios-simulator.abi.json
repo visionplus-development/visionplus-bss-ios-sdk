@@ -2689,48 +2689,39 @@
           },
           {
             "kind": "Conformance",
-            "name": "DataProtocol",
-            "printedName": "DataProtocol",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "Regions",
-                "printedName": "Regions",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CollectionOfOne",
-                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.UInt8]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UInt8",
-                            "printedName": "Swift.UInt8",
-                            "usr": "s:s5UInt8V"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:s15CollectionOfOneV"
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
                   }
                 ]
               }
             ],
-            "usr": "s:10Foundation12DataProtocolP",
-            "mangledName": "$s10Foundation12DataProtocolP"
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
           },
           {
             "kind": "Conformance",
-            "name": "MutableDataProtocol",
-            "printedName": "MutableDataProtocol",
-            "usr": "s:10Foundation19MutableDataProtocolP",
-            "mangledName": "$s10Foundation19MutableDataProtocolP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
           },
           {
             "kind": "Conformance",
@@ -2776,39 +2767,48 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
+                "name": "Regions",
+                "printedName": "Regions",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NSArray",
-                    "printedName": "Foundation.NSArray",
-                    "usr": "c:objc(cs)NSArray"
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
                   }
                 ]
               }
             ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
           },
           {
             "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ContiguousBytes",
-            "printedName": "ContiguousBytes",
-            "usr": "s:10Foundation15ContiguousBytesP",
-            "mangledName": "$s10Foundation15ContiguousBytesP"
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
           }
         ]
       },
@@ -3804,20 +3804,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -3837,6 +3823,20 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -3870,20 +3870,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -3903,6 +3889,20 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -4797,91 +4797,84 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3950,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4001,
+      "offset": 3978,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "Dictionary",
-      "offset": 4776,
+      "offset": 4753,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5031,
+      "offset": 5008,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5462,
+      "offset": 5439,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5611,
+      "offset": 5588,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5647,
+      "offset": 5624,
       "length": 17,
       "value": "\"Forgot Password\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5955,
+      "offset": 5932,
       "length": 10,
       "value": "\"Register\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6241,
+      "offset": 6218,
       "length": 17,
       "value": "\"Forgot Password\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6591,
+      "offset": 6568,
       "length": 16,
       "value": "\"Verify Account\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8377,
+      "offset": 8354,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8914,
+      "offset": 8891,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9103,
+      "offset": 9080,
       "length": 4,
       "value": "true"
     },
@@ -4895,7 +4888,7 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10845,
+      "offset": 10822,
       "length": 2,
       "value": "\"\""
     },
@@ -7044,100 +7037,37 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
       "kind": "StringLiteral",
-      "offset": 1249,
-      "length": 10,
-      "value": "\"APPLE ID\""
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1298,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
-      "kind": "StringLiteral",
-      "offset": 1620,
-      "length": 8,
-      "value": "\"GOOGLE\""
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1667,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
-      "kind": "StringLiteral",
-      "offset": 1997,
-      "length": 10,
-      "value": "\"FACEBOOK\""
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2046,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
-      "kind": "StringLiteral",
-      "offset": 2316,
+      "offset": 1781,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2599,
+      "offset": 2064,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2702,
+      "offset": 2167,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2905,
+      "offset": 2370,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2980,
+      "offset": 2445,
       "length": 2,
       "value": "50"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3117,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3324,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3537,
-      "length": 1,
-      "value": "8"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/NetworkError.swift",
@@ -7268,70 +7198,63 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Register\/RegisterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3646,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Register\/RegisterViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3694,
+      "offset": 3671,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Register\/RegisterViewController.swift",
       "kind": "Dictionary",
-      "offset": 4841,
+      "offset": 4818,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Register\/RegisterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5117,
+      "offset": 5094,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Register\/RegisterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5520,
+      "offset": 5497,
       "length": 8,
       "value": "\"Got it\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Register\/RegisterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5718,
+      "offset": 5695,
       "length": 7,
       "value": "\"Login\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Register\/RegisterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6020,
+      "offset": 5997,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Register\/RegisterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6056,
+      "offset": 6033,
       "length": 37,
       "value": "\"I didn’t receive any verification\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Register\/RegisterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6423,
+      "offset": 6400,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Register\/RegisterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7399,
+      "offset": 7376,
       "length": 19,
       "value": "\"Missing parameter\""
     },
@@ -7345,7 +7268,7 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Register\/RegisterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10830,
+      "offset": 10807,
       "length": 2,
       "value": "\"\""
     },
@@ -8012,7 +7935,7 @@
       "kind": "StringLiteral",
       "offset": 497,
       "length": 7,
-      "value": "\"0.2.0\""
+      "value": "\"1.2.0\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",

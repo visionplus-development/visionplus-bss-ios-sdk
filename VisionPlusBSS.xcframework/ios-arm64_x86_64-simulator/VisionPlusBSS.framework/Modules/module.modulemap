@@ -1,7 +1,7 @@
 framework module VisionPlusBSS {
   umbrella header "VisionPlusBSS.h"
-
   export *
+
   module * { export * }
 }
 
