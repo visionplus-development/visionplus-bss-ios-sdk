@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		w6iL03Tc3HUd5QpZM9STRhfQzuk=
+		PVkguHWRd8vEts501sTJ6Z4R+Ek=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZuP0kqDDnNOLvs+MR02371CnTAY=
+		O3dH3csAlNHkVvO7Uvm+xPJY93s=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZuP0kqDDnNOLvs+MR02371CnTAY=
+		O3dH3csAlNHkVvO7Uvm+xPJY93s=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l4q/mPIQLh3+asNkRmWv0s0ChGw=
+		4VlU5p7x9ppwF35BekBVKQfBHBw=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		w6iL03Tc3HUd5QpZM9STRhfQzuk=
+		PVkguHWRd8vEts501sTJ6Z4R+Ek=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uuV0/Q/qQDC+CRJmgzj0YOV/Bvo=
+		AtQdkPpm2ZR7IVZNVr1fb4yJgQc=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uuV0/Q/qQDC+CRJmgzj0YOV/Bvo=
+		AtQdkPpm2ZR7IVZNVr1fb4yJgQc=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6ixqTDPMGOQ3AJ8Ao8LCp/1/XZQ=
+		Lm6xzIqaAOwR8S3ZJyrlWJrec/8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -168,6 +168,18 @@
 		<data>
 		GLcrnlgEs3iifdng82yKXzTlcoI=
 		</data>
+		<key>ic_message.png</key>
+		<data>
+		DRNwy7C4Yqw3pSEIFPi9GjJNi20=
+		</data>
+		<key>ic_message@2x.png</key>
+		<data>
+		tfE9HfOAhBX1ouz1MqHa2xWTEF4=
+		</data>
+		<key>ic_message@3x.png</key>
+		<data>
+		X+k9J59CexAogcaULVwfNpHcrg8=
+		</data>
 		<key>ic_search@1x.png</key>
 		<data>
 		zrWwf2P54gSAsR2HuM78SCrLtMA=
@@ -203,6 +215,18 @@
 		<key>ic_visibility_on@3x.png</key>
 		<data>
 		0uE2mdWwva3nwyclZ0NPpi6Telo=
+		</data>
+		<key>ic_whatsapp.png</key>
+		<data>
+		buAshX8N6atZlkvwgFcSZrPqLvw=
+		</data>
+		<key>ic_whatsapp@2x.png</key>
+		<data>
+		JDh6qe26WI0ub3LAZkAk1RrTReI=
+		</data>
+		<key>ic_whatsapp@3x.png</key>
+		<data>
+		ZFif2KeK9XGe39HKO9N76qBNbeA=
 		</data>
 		<key>ill_server_error@1x.png</key>
 		<data>
@@ -249,14 +273,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y8FUyqI7YQKE3eynyMa2kbnzQ/KZUM//nCMqBxRX7Ao=
+			unbKq8lZNuUSbnWp2d7w2q3P0WHeBn56jyhQY4ccRa0=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qF32gzkZrMsJwLFK0w/i5e0yW1KhUizsCDv0cb6C6CM=
+			Igplxpi0klcBhnKEgH156guZNZDwgfO9SmU1r5KY4r8=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -270,28 +294,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qF32gzkZrMsJwLFK0w/i5e0yW1KhUizsCDv0cb6C6CM=
+			Igplxpi0klcBhnKEgH156guZNZDwgfO9SmU1r5KY4r8=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zXtOVI0K6Vc8YojI0rvXGOEpgFAmyo+BbBM+qBOvY5Q=
+			ihE7ih7rR4kmLdXmljWRDzIVfylP5eDJZMqoD0mPXgc=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y8FUyqI7YQKE3eynyMa2kbnzQ/KZUM//nCMqBxRX7Ao=
+			unbKq8lZNuUSbnWp2d7w2q3P0WHeBn56jyhQY4ccRa0=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			38ECY25e7q9wzEownzh9qXcbY9HEiJ5CqJyQD3yR/q0=
+			pjuyYfWvokAfLYULuoivHfWE8/wPmWvztO2zafestNE=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -305,14 +329,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			38ECY25e7q9wzEownzh9qXcbY9HEiJ5CqJyQD3yR/q0=
+			pjuyYfWvokAfLYULuoivHfWE8/wPmWvztO2zafestNE=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7YkluAb7fc0U42ojqQTw8U2AOQXRQo5G4lb91mJTt5o=
+			MjZr/5jNd9bJtG73mUXXEhiDrEf6d3OHO1d4LdC+h9c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -511,6 +535,27 @@
 			WYYqGp1HNfHbOcRwAKnNqCKdzKFAMxyf64O+tUtc48Y=
 			</data>
 		</dict>
+		<key>ic_message.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KNlX7rRQzXqJ/QJNWAmXyBi1rhT6xB4ydPISAvtbWEY=
+			</data>
+		</dict>
+		<key>ic_message@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zIT0cGgICXheqhR7KBL9azXi6uB2qVaLIVCk0X4QPVM=
+			</data>
+		</dict>
+		<key>ic_message@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TaaHS06khpP73IZrww2H4Z0wwytWQorsPZdBAjQVbRQ=
+			</data>
+		</dict>
 		<key>ic_search@1x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -572,6 +617,27 @@
 			<key>hash2</key>
 			<data>
 			GsGEeQ8y1YLk+9Uf0tC8RjgpymywemqNctvmo1ufcyY=
+			</data>
+		</dict>
+		<key>ic_whatsapp.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/wWo9MXP0WVoyPXERBbmKxmc2j/dsC18XxPshg7uXhM=
+			</data>
+		</dict>
+		<key>ic_whatsapp@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PXHYNOttdjE46YbHb1CQFuGv4fSqfudd+dFkzvpLN78=
+			</data>
+		</dict>
+		<key>ic_whatsapp@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sIqGRwoSQDnpTZUh5VsUNLwbjM1e5v+ALiGVJbsRg+k=
 			</data>
 		</dict>
 		<key>ill_server_error@1x.png</key>

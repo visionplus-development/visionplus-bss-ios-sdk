@@ -33,6 +33,7 @@ public enum VPAuthProvider : Swift.String {
 @_hasMissingDesignatedInitializers public class VisionPlusBSS {
   public static let shared: VisionPlusBSS.VisionPlusBSS
   weak public var authDelegate: (any VisionPlusBSS.VPAuthDelegate)?
+  weak public var eventDelegate: (any VisionPlusBSS.VPEventDelegate)?
   public var localize: Swift.String
   public var key: Swift.String?
   public static var publicConfig: VisionPlusBSS.ConfigModel
@@ -55,6 +56,9 @@ extension VisionPlusBSS.VisionPlusBSS {
 public protocol VPAuthDelegate : AnyObject {
   func didAuthenticationSuccess(token: Swift.String, provider: VisionPlusBSS.VPAuthProvider, info: [Swift.String : Any])
   func didAuthenticationFailure(error: any Swift.Error)
+}
+public protocol VPEventDelegate : AnyObject {
+  func eventListener(eventName: Swift.String, payload: [Swift.String : Any])
 }
 public struct CountryModel : Swift.Decodable, Swift.Equatable {
   public static func == (a: VisionPlusBSS.CountryModel, b: VisionPlusBSS.CountryModel) -> Swift.Bool
