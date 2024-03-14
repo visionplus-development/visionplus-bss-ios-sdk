@@ -35,7 +35,10 @@ public enum VPAuthProvider : Swift.String {
   weak public var authDelegate: (any VisionPlusBSS.VPAuthDelegate)?
   weak public var eventDelegate: (any VisionPlusBSS.VPEventDelegate)?
   public var localize: Swift.String
-  public var key: Swift.String?
+  public var key: Swift.String? {
+    get
+    set
+  }
   public static var publicConfig: VisionPlusBSS.ConfigModel
   public static var countriesConfig: [VisionPlusBSS.CountryModel]
   @objc deinit
