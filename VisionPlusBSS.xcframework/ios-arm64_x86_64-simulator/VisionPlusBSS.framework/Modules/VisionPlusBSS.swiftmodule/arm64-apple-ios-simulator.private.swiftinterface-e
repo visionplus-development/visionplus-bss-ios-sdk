@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AuthenticationServices
 import CoreGraphics
+import CoreLocation
 import Foundation
 import SafariServices
 import Swift
@@ -14,6 +15,16 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum VPUserDefaultKeys : Swift.String {
+  case location
+  case ip
+  case country
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct EmergencyModeModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -71,6 +82,9 @@ public struct CountryModel : Swift.Decodable, Swift.Equatable {
   public static func == (a: VisionPlusBSS.CountryModel, b: VisionPlusBSS.CountryModel) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
+extension VisionPlusBSS.VPUserDefaultKeys : Swift.Equatable {}
+extension VisionPlusBSS.VPUserDefaultKeys : Swift.Hashable {}
+extension VisionPlusBSS.VPUserDefaultKeys : Swift.RawRepresentable {}
 extension VisionPlusBSS.VPAuthProvider : Swift.Equatable {}
 extension VisionPlusBSS.VPAuthProvider : Swift.Hashable {}
 extension VisionPlusBSS.VPAuthProvider : Swift.RawRepresentable {}
