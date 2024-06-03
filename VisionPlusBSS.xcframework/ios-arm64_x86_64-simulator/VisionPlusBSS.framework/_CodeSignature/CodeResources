@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Evt3plVBRjFxcl/itH4JqM5rFCw=
+		b69aaU5K8mtfGTo77muJYjXcIFc=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vyhlVWycNenJJJlCzxrps7Cvo6g=
+		IOxMF1uCxVCdPmp3cl/zV2CY4ow=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vyhlVWycNenJJJlCzxrps7Cvo6g=
+		IOxMF1uCxVCdPmp3cl/zV2CY4ow=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kd6TUlWURLxqiPxsWadF0NWOGaE=
+		RI73nZMQocKh3c0VeGGGcuS2rlE=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Evt3plVBRjFxcl/itH4JqM5rFCw=
+		b69aaU5K8mtfGTo77muJYjXcIFc=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		45SfPQ5Z/6xFECBw/3zM4Q4w+go=
+		t0DdgvWnkXWtwnvdYoM/OWSDDTA=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,16 +50,25 @@
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		45SfPQ5Z/6xFECBw/3zM4Q4w+go=
+		t0DdgvWnkXWtwnvdYoM/OWSDDTA=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Rd00W88S7cm8NqpZbiSHUXymUsk=
+		tOp/Hn/tv+WyY91ZQuT6B4fBf8k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		KXlPm79wntHPhtRa+u6QcmeA9W4=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oBSvDXlEOSheorcyEcPMrqLGYi4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>ic_apple_id@1x.png</key>
 		<data>
 		dX8Yyt64VjFKKRsUPVtj4hq7Tnw=
@@ -228,6 +237,15 @@
 		<data>
 		ZFif2KeK9XGe39HKO9N76qBNbeA=
 		</data>
+		<key>id.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/rn/X+6eoOPWWI8885u41hAkOKc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>ill_server_error@1x.png</key>
 		<data>
 		o95oDWGPSug0wvLbPNod3+vn7uw=
@@ -273,14 +291,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fXt6xnXWfUl4rBYixqeWsAlsYZoMEalEqzajX0jpT8Y=
+			rd8VhC9MIThgTIyvADL1gze4CxHtl8niHPlIBXcXK7s=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y23VBIUi+/r8mRG/gPdTdjsx5Rza+CFf/VtUHh1kaso=
+			Dy1HtbwVeE6H2ywccnfcAh9FY9d99GZhwvlcZBwYcw0=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -294,28 +312,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y23VBIUi+/r8mRG/gPdTdjsx5Rza+CFf/VtUHh1kaso=
+			Dy1HtbwVeE6H2ywccnfcAh9FY9d99GZhwvlcZBwYcw0=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kGtNs4NDIdRSjGF8lVDEI4LGeAEVBmpIrNTiUDhEV50=
+			flOYSrTCdUqFjzRYeWIOltX09PkkNz4MsLGaDzv3Q/Y=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fXt6xnXWfUl4rBYixqeWsAlsYZoMEalEqzajX0jpT8Y=
+			rd8VhC9MIThgTIyvADL1gze4CxHtl8niHPlIBXcXK7s=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			woV1kVdtAoMnQ1R4SyyQ+mzKLvstlBoC6XlPb9DAfYo=
+			7Yn3Hg7N4RlW4PKVkB/O098j4XmuaP7L2Ocgp6SGw5Q=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -329,14 +347,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			woV1kVdtAoMnQ1R4SyyQ+mzKLvstlBoC6XlPb9DAfYo=
+			7Yn3Hg7N4RlW4PKVkB/O098j4XmuaP7L2Ocgp6SGw5Q=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pHYLmsIpyqLLz24AhydnxgbwLMOdZzPOV++o5ZTsYVY=
+			tSpFeWx05CBVHTDDJ3WAp/BL+wNixUnF7bOY9+sj0Mg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -345,6 +363,15 @@
 			<data>
 			urSOTedt/uQ2UeFpG1n/zL4cBUDkOxKLCYr3ihJ8y8M=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xGXwB/I4Emh8C4KnrDUclpcspczql/JzMS7l25JCXCc=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>ic_apple_id@1x.png</key>
 		<dict>
@@ -639,6 +666,15 @@
 			<data>
 			sIqGRwoSQDnpTZUh5VsUNLwbjM1e5v+ALiGVJbsRg+k=
 			</data>
+		</dict>
+		<key>id.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rNBnc1mpqpvTdHHqzyE6tsB6narZwJLqrIQs6PRZzRQ=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>ill_server_error@1x.png</key>
 		<dict>
