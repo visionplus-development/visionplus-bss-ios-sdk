@@ -9304,7 +9304,7 @@
       "kind": "StringLiteral",
       "offset": 534,
       "length": 7,
-      "value": "\"1.5.0\""
+      "value": "\"1.5.1\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
@@ -9925,35 +9925,35 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Forgot Password\/ForgotPasswordViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4385,
+      "offset": 4649,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Forgot Password\/ForgotPasswordViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4561,
+      "offset": 4825,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Forgot Password\/ForgotPasswordViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5360,
+      "offset": 5624,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Forgot Password\/ForgotPasswordViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6701,
+      "offset": 6965,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Forgot Password\/ForgotPasswordViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7230,
+      "offset": 7494,
       "length": 19,
       "value": "\"Missing parameter\""
     },
@@ -9967,21 +9967,21 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Forgot Password\/ForgotPasswordViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9763,
+      "offset": 10027,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Forgot Password\/ForgotPasswordViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10051,
+      "offset": 10315,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Forgot Password\/ForgotPasswordViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10379,
+      "offset": 10643,
       "length": 4,
       "value": "true"
     },
@@ -10683,250 +10683,257 @@
       "kind": "StringLiteral",
       "offset": 506,
       "length": 27,
+      "value": "\"descSendVerificationPhone\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
+      "kind": "StringLiteral",
+      "offset": 598,
+      "length": 27,
       "value": "\"descSendVerificationEmail\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 597,
+      "offset": 689,
       "length": 26,
       "value": "\"didntReceiveVerification\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 680,
+      "offset": 772,
       "length": 19,
       "value": "\"dontHaveAnAccount\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 744,
+      "offset": 836,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 811,
+      "offset": 903,
       "length": 22,
       "value": "\"emailFormatIncorrect\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 881,
+      "offset": 973,
       "length": 10,
       "value": "\"enterOTP\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 944,
+      "offset": 1036,
       "length": 15,
       "value": "\"enterPassword\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1015,
+      "offset": 1107,
       "length": 18,
       "value": "\"enterPhoneNumber\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1179,
       "length": 16,
       "value": "\"enterYourEmail\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1154,
+      "offset": 1246,
       "length": 13,
       "value": "\"errorServer\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1221,
+      "offset": 1313,
       "length": 16,
       "value": "\"forgotPassword\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1287,
+      "offset": 1379,
       "length": 12,
       "value": "\"getOTPLink\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1350,
+      "offset": 1442,
       "length": 13,
       "value": "\"linkExpired\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1419,
+      "offset": 1511,
       "length": 18,
       "value": "\"linkExpiredRetry\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1482,
+      "offset": 1574,
       "length": 7,
       "value": "\"login\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1630,
       "length": 11,
       "value": "\"noCountry\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1691,
       "length": 12,
       "value": "\"noInternet\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1665,
+      "offset": 1757,
       "length": 16,
       "value": "\"orContinueWith\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1729,
+      "offset": 1821,
       "length": 10,
       "value": "\"password\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1790,
+      "offset": 1882,
       "length": 13,
       "value": "\"phoneNumber\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1863,
+      "offset": 1955,
       "length": 22,
       "value": "\"phoneNumberIncorrect\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 1941,
+      "offset": 2033,
       "length": 18,
       "value": "\"placeholderEmail\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2021,
+      "offset": 2113,
       "length": 24,
       "value": "\"placeholderPhoneNumber\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2093,
+      "offset": 2185,
       "length": 10,
       "value": "\"register\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2151,
+      "offset": 2243,
       "length": 10,
       "value": "\"resendIn\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2213,
+      "offset": 2305,
       "length": 14,
       "value": "\"savePassword\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2280,
+      "offset": 2372,
       "length": 15,
       "value": "\"searchCountry\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2342,
+      "offset": 2434,
       "length": 9,
       "value": "\"sendOTP\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2401,
+      "offset": 2493,
       "length": 12,
       "value": "\"sendOtpSms\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2468,
+      "offset": 2560,
       "length": 17,
       "value": "\"sendOtpWhatsapp\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 2632,
       "length": 17,
       "value": "\"serverErrorDesc\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2620,
+      "offset": 2712,
       "length": 25,
       "value": "\"successPasswordAtForgot\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2704,
+      "offset": 2796,
       "length": 21,
       "value": "\"validateEmailFormat\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2789,
+      "offset": 2881,
       "length": 26,
       "value": "\"validatePasswordNotMatch\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2868,
+      "offset": 2960,
       "length": 15,
       "value": "\"verifyAccount\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Language\/Localize.swift",
       "kind": "StringLiteral",
-      "offset": 2943,
+      "offset": 3035,
       "length": 22,
       "value": "\"verifyAccountSuccess\""
     },
