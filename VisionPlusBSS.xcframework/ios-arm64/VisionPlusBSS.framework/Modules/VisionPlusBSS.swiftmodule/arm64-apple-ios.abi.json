@@ -5203,64 +5203,57 @@
     },
     {
       "filePath": "\/Users\/admin\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 406,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 600,
+      "offset": 552,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/admin\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 639,
+      "offset": 591,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 718,
+      "offset": 670,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 744,
+      "offset": 696,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/admin\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 923,
+      "offset": 875,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1053,
+      "offset": 1005,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/admin\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1383,
+      "offset": 1335,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/admin\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1634,
+      "offset": 1586,
       "length": 5,
       "value": "false"
     },
@@ -6711,7 +6704,7 @@
       "kind": "StringLiteral",
       "offset": 534,
       "length": 7,
-      "value": "\"1.6.0\""
+      "value": "\"1.6.1\""
     },
     {
       "filePath": "\/Users\/admin\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
