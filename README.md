@@ -1,7 +1,15 @@
 # VisionPlusBSS
 
-https://www.visionplus.id/websupport/contact-us
+https://supports.visionplus.id/vplus/help
+
+- erwindo.sianipar@mncgroup.com
+- chrestella.riyanto@mncgroup.com
+- handi.deyana@mncgroup.com
+
+## CocoaPods
+
+https://cocoapods.org/pods/VisionPlusBSS
 
 ## Software License
 
-[End-User License Agreement](https://github.com/visionplus-development/visionplus-bss-ios-sdk/blob/main/LICENSE)
+[End-User License Agreement](LICENSE)
