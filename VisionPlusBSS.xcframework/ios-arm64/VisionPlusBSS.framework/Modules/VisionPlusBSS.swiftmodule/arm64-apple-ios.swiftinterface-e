@@ -5,6 +5,7 @@
 import AuthenticationServices
 import CoreGraphics
 import CoreLocation
+import CryptoKit
 import Foundation
 import SafariServices
 import Swift
@@ -19,6 +20,7 @@ public enum VPUserDefaultKeys : Swift.String {
   case location
   case ip
   case country
+  case deviceID
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
