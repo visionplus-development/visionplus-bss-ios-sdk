@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VisionPlusBSS-Swift.h</key>
 		<data>
-		h6GGyq5SL4D0q0YiyDxktiouL1Q=
+		4n33jJyMSzaw1yVxalU0MJYwims=
 		</data>
 		<key>Headers/VisionPlusBSS.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FuggC/iCwG6IdUfdqDBWRw9+TGE=
+		izSJsS89z82a9K47ZbHNnsUrTSs=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		68G9+tXm4RVzPCl4M0wesO2VEEE=
+		+ldnSUfVqaXzdXhWljKd9/uS3lQ=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BRJKBB4ko+GSRjFtUqFBjiT9VOM=
+		Fv34UfmQsmXJT8Okges1bIk9EIc=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jismehNZRXFdz1SbyQqA9+mduQE=
+		tWZeHKWnYG6RolP+ocClyhNnM4w=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BRJKBB4ko+GSRjFtUqFBjiT9VOM=
+		Fv34UfmQsmXJT8Okges1bIk9EIc=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JCDJ2NTXWJ6xgm2jFKbRuddarOA=
+		NufFK3blHxLDU2yM8dfSi0p8KHw=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		68G9+tXm4RVzPCl4M0wesO2VEEE=
+		+ldnSUfVqaXzdXhWljKd9/uS3lQ=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KE9K7UT8PjsMDanejOwK47fUH9s=
+		nPNwSY6r+lR2UjJ82eqI0xTfGAI=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/YMndAJhpD6gcC5eMF7scNTdZuA=
+		byS5f4O5wNE+kASLZYrdPXLuaUc=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KE9K7UT8PjsMDanejOwK47fUH9s=
+		nPNwSY6r+lR2UjJ82eqI0xTfGAI=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tYsruPBvpx+7BU3tld3qMJ5pfzQ=
+		KUT7WeQgpKqEt8+xtHxhKgJ1/5Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kWvHtE07O+Cup3/3c/DUo4rQNHc=
+			tewU6JaPkf4fQOCrQ2v5ncSXQ+w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -80,6 +80,18 @@
 		<key>ic_apple_id@3x.png</key>
 		<data>
 		jOx0kaJxAedCr+excl8e+e6uBmI=
+		</data>
+		<key>ic_apple_white@1x.png</key>
+		<data>
+		l4HM6/v6F7+0hLgoz2hLBSbJA5c=
+		</data>
+		<key>ic_apple_white@2x.png</key>
+		<data>
+		bP+IRvwW3lF9SOIHwkiMaKTZrjQ=
+		</data>
+		<key>ic_apple_white@3x.png</key>
+		<data>
+		u7B3CsB5ljNUSa5KNIbhHTWjr6Q=
 		</data>
 		<key>ic_arrow_down@1x.png</key>
 		<data>
@@ -165,6 +177,18 @@
 		<data>
 		9Xs+IVjCMmb6WyRGyNuRRfHRD3Y=
 		</data>
+		<key>ic_google_white@1x.png</key>
+		<data>
+		MQ05aLYyMYt0j1cgblqiYnh2IJU=
+		</data>
+		<key>ic_google_white@2x.png</key>
+		<data>
+		IqVWXCNcRJDYQcsuAKRDOOJSNNc=
+		</data>
+		<key>ic_google_white@3x.png</key>
+		<data>
+		jlulBEXZhZLawO/vpb59CAVaOxk=
+		</data>
 		<key>ic_internet_off@1x.png</key>
 		<data>
 		KNO1Te+uHBUuTs3484k0vT4GnRM=
@@ -241,7 +265,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MdQCuGpE7fLmkoC7VX/8PfzyK6Y=
+			iSD0CdtEf22Oa1t7E3CbZ6o/9U8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -277,7 +301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rxRcSVmP4knokY9j3z8pIiJvShUuOQXboQzTjztzDqo=
+			TIANkdC+UMv/gTrCiUaxtT16azAyZx8Ya5Fcj1/Gf4s=
 			</data>
 		</dict>
 		<key>Headers/VisionPlusBSS.h</key>
@@ -291,70 +315,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+RVnKbnkWWJiIwAVnZXT61IC6yHFyagWndMPVjdRBUQ=
+			6KzEEzeUmHAfZK+iQ7Af+TxR+VwOIACswnbI4Xn5530=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ia6WAB6QbDSWj7jBgxAisZZ66N/D6u+Lzh/JmjbVkd4=
+			tJhF7Xyvyg0akcezGrnpYntHqAauOEhaeKbJ7CyayMs=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dOktqu6YMD6hupqFewr4pi1U3YRAmj9mUJMjZNEw6ek=
+			CKq1reKELQF2C6kQf/MNRFPa1XunPcpk/7wZG4KsWG4=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ia6WAB6QbDSWj7jBgxAisZZ66N/D6u+Lzh/JmjbVkd4=
+			tJhF7Xyvyg0akcezGrnpYntHqAauOEhaeKbJ7CyayMs=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v5zYuhHYm+cRZvDyZwnn3IDMyRl5BHpmu2KK7jwsukU=
+			u6qF92JXxQlWsqTfWhZ7gPxMcH5sExhEnem5ELRqMxY=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+RVnKbnkWWJiIwAVnZXT61IC6yHFyagWndMPVjdRBUQ=
+			6KzEEzeUmHAfZK+iQ7Af+TxR+VwOIACswnbI4Xn5530=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jbc0raj62AxX0yU++VE2bakouLo+4xBS8XGxzRe93pw=
+			ov0ETyhgIg/QCW938L02ZirOtAP3iEUtNg+gd4mhTU0=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+HzyuCVTrU3UamFSDqGouWynsZwJVnZJ62/OfdQl23E=
+			xg+1KzFPmDqzsehTz67BjKOHhUcR7MtyueqGaIBxm8I=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jbc0raj62AxX0yU++VE2bakouLo+4xBS8XGxzRe93pw=
+			ov0ETyhgIg/QCW938L02ZirOtAP3iEUtNg+gd4mhTU0=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CRrhwC5ruISyfkNVaq8qy5X9vFpESOhp+GY7Ie04M+4=
+			8y6lcwuKrMd+PLWnx0VVQiMiUNAj7YFREU+KHnABh4c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -368,7 +392,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wwvvWPwYtJ3djn1VKGmOZ1sXYzUCTu7UGLoOwgKitFQ=
+			oSDSSN2ieb0648FmgpU/5nb0EZBxAT3UtlIJaKR6/Fo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -392,6 +416,27 @@
 			<key>hash2</key>
 			<data>
 			8GkHeDO63iHyCsCWSZRPYC5VEIc1hmohFkEspVZgups=
+			</data>
+		</dict>
+		<key>ic_apple_white@1x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rOvexTqMM6kFzrwFtJZZJSInKGhdcEVGAia/JkJMoHg=
+			</data>
+		</dict>
+		<key>ic_apple_white@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GqJ+gWmrtWQDVogjMGKmNnYOTJqrHi8mZeettN8/F1s=
+			</data>
+		</dict>
+		<key>ic_apple_white@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kPpV4/QnWnCwNQlEOVfb77OfjJfai6Md7HtQ2q3vRdY=
 			</data>
 		</dict>
 		<key>ic_arrow_down@1x.png</key>
@@ -541,6 +586,27 @@
 			mfNsbr64LUjCCShLZhlDagQU8NxAL6PyBozx6I6XXWc=
 			</data>
 		</dict>
+		<key>ic_google_white@1x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VDeJscl9AaOuKzDu847DnIJ9joiMBzchPlKKJIisIqQ=
+			</data>
+		</dict>
+		<key>ic_google_white@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			toleIDVuI2FKniqbP3eXKYhwzluEVf1I2q5McdAXas4=
+			</data>
+		</dict>
+		<key>ic_google_white@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			n7iJwZAw2BEgokUkm/5jW9U6cRk4YwbGx4aGJj8MYnc=
+			</data>
+		</dict>
 		<key>ic_internet_off@1x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -671,7 +737,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nY4Lq2t9OwyrJkgbU48c1TsuVQ3FF3Tc5j75qf4BbC4=
+			Hnn2Q+5dYVltXua7a4GWJmRert56FhaKubWOT3Feqw4=
 			</data>
 			<key>optional</key>
 			<true/>
