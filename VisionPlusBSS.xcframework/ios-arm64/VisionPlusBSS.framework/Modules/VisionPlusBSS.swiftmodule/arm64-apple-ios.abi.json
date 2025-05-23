@@ -281,6 +281,43 @@
             "moduleName": "VisionPlusBSS"
           },
           {
+            "kind": "Var",
+            "name": "adsID",
+            "printedName": "adsID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisionPlusBSS.VPUserDefaultKeys.Type) -> VisionPlusBSS.VPUserDefaultKeys",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VPUserDefaultKeys",
+                    "printedName": "VisionPlusBSS.VPUserDefaultKeys",
+                    "usr": "s:13VisionPlusBSS17VPUserDefaultKeysO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisionPlusBSS.VPUserDefaultKeys.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VPUserDefaultKeys",
+                        "printedName": "VisionPlusBSS.VPUserDefaultKeys",
+                        "usr": "s:13VisionPlusBSS17VPUserDefaultKeysO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VisionPlusBSS17VPUserDefaultKeysO5adsIDyA2CmF",
+            "mangledName": "$s13VisionPlusBSS17VPUserDefaultKeysO5adsIDyA2CmF",
+            "moduleName": "VisionPlusBSS"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -435,6 +472,27 @@
         "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "VisionPlusBSS"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "VisionPlusBSS"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "VisionPlusBSS"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
         "declKind": "Import",
         "moduleName": "VisionPlusBSS"
       },
@@ -1293,14 +1351,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13VisionPlusBSSAAC8localizeSSvp",
-            "mangledName": "$s13VisionPlusBSSAAC8localizeSSvp",
+            "usr": "s:13VisionPlusBSSAAC8localizeSSSgvp",
+            "mangledName": "$s13VisionPlusBSSAAC8localizeSSSgvp",
             "moduleName": "VisionPlusBSS",
             "declAttributes": [
               "HasInitialValue",
@@ -1316,14 +1382,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13VisionPlusBSSAAC8localizeSSvg",
-                "mangledName": "$s13VisionPlusBSSAAC8localizeSSvg",
+                "usr": "s:13VisionPlusBSSAAC8localizeSSSgvg",
+                "mangledName": "$s13VisionPlusBSSAAC8localizeSSSgvg",
                 "moduleName": "VisionPlusBSS",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1340,14 +1414,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13VisionPlusBSSAAC8localizeSSvs",
-                "mangledName": "$s13VisionPlusBSSAAC8localizeSSvs",
+                "usr": "s:13VisionPlusBSSAAC8localizeSSSgvs",
+                "mangledName": "$s13VisionPlusBSSAAC8localizeSSSgvs",
                 "moduleName": "VisionPlusBSS",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1364,8 +1446,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13VisionPlusBSSAAC8localizeSSvM",
-                "mangledName": "$s13VisionPlusBSSAAC8localizeSSvM",
+                "usr": "s:13VisionPlusBSSAAC8localizeSSSgvM",
+                "mangledName": "$s13VisionPlusBSSAAC8localizeSSSgvM",
                 "moduleName": "VisionPlusBSS",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1705,6 +1787,40 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "getLocale",
+            "printedName": "getLocale()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.String, Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VisionPlusBSSAAC9getLocaleSS_SStyF",
+            "mangledName": "$s13VisionPlusBSSAAC9getLocaleSS_SStyF",
+            "moduleName": "VisionPlusBSS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -2611,6 +2727,13 @@
       },
       {
         "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "VisionPlusBSS"
+      },
+      {
+        "kind": "Import",
         "name": "FBSDKLoginKit",
         "printedName": "FBSDKLoginKit",
         "declKind": "Import",
@@ -2881,6 +3004,33 @@
         "moduleName": "VisionPlusBSS",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VisionPlusBSS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "VisionPlusBSS"
+      },
+      {
+        "kind": "Import",
+        "name": "RecaptchaEnterprise",
+        "printedName": "RecaptchaEnterprise",
+        "declKind": "Import",
+        "moduleName": "VisionPlusBSS",
+        "declAttributes": [
+          "ImplementationOnly"
         ]
       },
       {
@@ -3523,6 +3673,51 @@
           },
           {
             "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ContiguousBytes",
             "printedName": "ContiguousBytes",
             "usr": "s:10Foundation15ContiguousBytesP",
@@ -3569,51 +3764,6 @@
             ],
             "usr": "s:10Foundation26DecodableWithConfigurationP",
             "mangledName": "$s10Foundation26DecodableWithConfigurationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DataProtocol",
-            "printedName": "DataProtocol",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Regions",
-                "printedName": "Regions",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CollectionOfOne",
-                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.UInt8]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UInt8",
-                            "printedName": "Swift.UInt8",
-                            "usr": "s:s5UInt8V"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:s15CollectionOfOneV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation12DataProtocolP",
-            "mangledName": "$s10Foundation12DataProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MutableDataProtocol",
-            "printedName": "MutableDataProtocol",
-            "usr": "s:10Foundation19MutableDataProtocolP",
-            "mangledName": "$s10Foundation19MutableDataProtocolP"
           }
         ]
       },
@@ -5084,6 +5234,27 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/Response Models\/HeaderEnhancementResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 14,
+      "value": "\"country-code\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/Response Models\/HeaderEnhancementResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 14,
+      "value": "\"phone-number\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/Response Models\/HeaderEnhancementResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 12,
+      "value": "\"e164-phone\""
+    },
+    {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/TextField.swift",
       "kind": "IntegerLiteral",
       "offset": 685,
@@ -5245,6 +5416,20 @@
       "value": "14"
     },
     {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/Request Models\/OTPLoginRequestModel.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/Request Models\/OTPLoginRequestModel.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/Request Models\/RegisterRequestModel.swift",
       "kind": "StringLiteral",
       "offset": 308,
@@ -5280,6 +5465,20 @@
       "value": "\"device-id\""
     },
     {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 8,
+      "value": "\"ads-id\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 1670,
+      "length": 38,
+      "value": "\"00000000-0000-0000-0000-000000000000\""
+    },
+    {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/Response Models\/OtpResponseModel.swift",
       "kind": "StringLiteral",
       "offset": 278,
@@ -5296,56 +5495,56 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 552,
+      "offset": 620,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 591,
+      "offset": 659,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 670,
+      "offset": 738,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 696,
+      "offset": 764,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 875,
+      "offset": 943,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1005,
+      "offset": 1073,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1335,
+      "offset": 1403,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Login\/LoginViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1586,
+      "offset": 1654,
       "length": 5,
       "value": "false"
     },
@@ -5460,6 +5659,20 @@
       "offset": 1035,
       "length": 18,
       "value": "\"ill_server_error\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/ImageConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1103,
+      "length": 16,
+      "value": "\"ic_apple_white\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/ImageConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1165,
+      "length": 17,
+      "value": "\"ic_google_white\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/NetworkConfig.swift",
@@ -5780,36 +5993,36 @@
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
       "kind": "StringLiteral",
       "offset": 822,
+      "length": 22,
+      "value": "\"err_phone_registered\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
+      "kind": "StringLiteral",
+      "offset": 875,
       "length": 23,
       "value": "\"err_email_or_password\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
       "kind": "StringLiteral",
-      "offset": 876,
+      "offset": 929,
       "length": 23,
       "value": "\"err_phone_or_password\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
       "kind": "StringLiteral",
-      "offset": 932,
+      "offset": 985,
       "length": 24,
       "value": "\"err_email_unregistered\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 1042,
       "length": 24,
       "value": "\"err_phone_unregistered\""
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1044,
-      "length": 22,
-      "value": "\"err_phone_registered\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
@@ -5821,105 +6034,91 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
       "kind": "StringLiteral",
-      "offset": 1186,
-      "length": 18,
-      "value": "\"already_verified\""
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1230,
+      "offset": 1184,
       "length": 16,
       "value": "\"not_registered\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
       "kind": "StringLiteral",
-      "offset": 1272,
+      "offset": 1226,
       "length": 17,
       "value": "\"err_invalid_otp\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
       "kind": "StringLiteral",
-      "offset": 1315,
+      "offset": 1269,
       "length": 17,
       "value": "\"err_expired_otp\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
       "kind": "StringLiteral",
-      "offset": 1362,
+      "offset": 1316,
       "length": 22,
       "value": "\"err_otp_waiting_time\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
       "kind": "StringLiteral",
-      "offset": 1413,
+      "offset": 1367,
       "length": 20,
       "value": "\"err_quota_exceeded\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/ErrorModel.swift",
       "kind": "StringLiteral",
-      "offset": 1463,
+      "offset": 1417,
       "length": 21,
       "value": "\"err_internal_server\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
-      "kind": "StringLiteral",
-      "offset": 387,
-      "length": 4,
-      "value": "\"en\""
-    },
-    {
-      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 3636,
+      "offset": 4258,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 3920,
+      "offset": 4542,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4242,
+      "offset": 4864,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4532,
+      "offset": 5154,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4916,
+      "offset": 5538,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "BooleanLiteral",
-      "offset": 5287,
+      "offset": 5909,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/VisionPlusBSS.swift",
       "kind": "Dictionary",
-      "offset": 5890,
+      "offset": 6512,
       "length": 3,
       "value": "[]"
     },
@@ -6059,217 +6258,224 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 897,
+      "offset": 892,
+      "length": 17,
+      "value": "\"click login otp\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
       "length": 22,
       "value": "\"click login facebook\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 953,
+      "offset": 996,
       "length": 26,
       "value": "\"click country code phone\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1012,
+      "offset": 1055,
       "length": 25,
       "value": "\"popup msg login attempt\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1069,
+      "offset": 1112,
       "length": 24,
       "value": "\"click ok login attempt\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1180,
       "length": 37,
       "value": "\"click forgot password login attempt\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1212,
+      "offset": 1255,
       "length": 30,
       "value": "\"click register login attempt\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1281,
+      "offset": 1324,
       "length": 26,
       "value": "\"click phone tab register\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1340,
+      "offset": 1383,
       "length": 25,
       "value": "\"click send otp register\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1396,
+      "offset": 1439,
       "length": 22,
       "value": "\"click register phone\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1452,
+      "offset": 1495,
       "length": 26,
       "value": "\"click email tab register\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1509,
+      "offset": 1552,
       "length": 22,
       "value": "\"click register email\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1561,
+      "offset": 1604,
       "length": 21,
       "value": "\"click login attempt\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1621,
+      "offset": 1664,
       "length": 32,
       "value": "\"popup msg otp request register\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1691,
+      "offset": 1734,
       "length": 31,
       "value": "\"click ok otp request register\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1770,
+      "offset": 1813,
       "length": 41,
       "value": "\"click not receive verification register\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1853,
+      "offset": 1896,
       "length": 35,
       "value": "\"click forgot password login email\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1923,
+      "offset": 1966,
       "length": 28,
       "value": "\"click send otp login email\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1991,
+      "offset": 2034,
       "length": 33,
       "value": "\"click save password login email\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2071,
+      "offset": 2114,
       "length": 35,
       "value": "\"click forgot password login phone\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2141,
+      "offset": 2184,
       "length": 28,
       "value": "\"click send otp login phone\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2209,
+      "offset": 2252,
       "length": 33,
       "value": "\"click save password login phone\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2292,
+      "offset": 2335,
       "length": 39,
       "value": "\"popup msg otp request forgot password\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2375,
+      "offset": 2418,
       "length": 38,
       "value": "\"click ok otp request forgot password\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2467,
+      "offset": 2510,
       "length": 48,
       "value": "\"click not receive verification forgot password\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2608,
+      "offset": 2651,
       "length": 16,
       "value": "\"event_category\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2643,
+      "offset": 2686,
       "length": 14,
       "value": "\"event_action\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2712,
+      "offset": 2755,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2741,
+      "offset": 2784,
       "length": 8,
       "value": "\"msisdn\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2774,
+      "offset": 2817,
       "length": 15,
       "value": "\"email_address\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2809,
+      "offset": 2852,
       "length": 9,
       "value": "\"country\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/TrackingConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2842,
+      "offset": 2885,
       "length": 14,
       "value": "\"country_code\""
     },
@@ -6342,6 +6548,13 @@
       "offset": 609,
       "length": 18,
       "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/DI\/NetworkInjectionKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1007,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/ToastView.swift",
@@ -6458,37 +6671,58 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
       "kind": "IntegerLiteral",
-      "offset": 586,
+      "offset": 615,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
       "kind": "BooleanLiteral",
-      "offset": 694,
+      "offset": 723,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
       "kind": "StringLiteral",
-      "offset": 767,
+      "offset": 796,
       "length": 36,
       "value": "\"    \""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
       "kind": "StringLiteral",
-      "offset": 798,
+      "offset": 827,
       "length": 1,
       "value": "\"    \""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
       "kind": "IntegerLiteral",
-      "offset": 880,
+      "offset": 914,
       "length": 2,
-      "value": "60"
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1568,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1955,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/SocialLoginView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2347,
+      "length": 2,
+      "value": "12"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Send OTP\/SendOTPViewController.swift",
@@ -6771,81 +7005,172 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/OTP Login\/Subviews\/OTPLoginFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 411,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
       "kind": "StringLiteral",
-      "offset": 218,
+      "offset": 238,
       "length": 12,
       "value": "\"visionplus\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
       "kind": "StringLiteral",
-      "offset": 318,
+      "offset": 338,
       "length": 13,
       "value": "\"mirada_prod\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
       "kind": "StringLiteral",
-      "offset": 359,
+      "offset": 379,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
       "kind": "StringLiteral",
-      "offset": 397,
+      "offset": 417,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
       "kind": "StringLiteral",
-      "offset": 435,
+      "offset": 455,
       "length": 72,
       "value": "\"https:\/\/8b0e4d4175d24d67c60534bf14aca6e5@fe-monitoring.visionplus.id\/3\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 558,
       "length": 7,
-      "value": "\"1.7.1\""
+      "value": "\"1.8.0\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
       "kind": "StringLiteral",
-      "offset": 580,
+      "offset": 600,
       "length": 46,
       "value": "\"https:\/\/rctiplus.com\/visionplus?from=bss-ios\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 696,
+      "offset": 716,
       "length": 10,
       "value": "-6.1844973"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 719,
+      "offset": 739,
       "length": 11,
       "value": "106.8307974"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
       "kind": "StringLiteral",
-      "offset": 762,
+      "offset": 782,
       "length": 4,
       "value": "\"ID\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 805,
+      "offset": 825,
       "length": 2,
       "value": "30"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 7,
+      "value": "\"apple\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2174,
+      "length": 4,
+      "value": "\"os\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2211,
+      "length": 12,
+      "value": "\"os-version\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2257,
+      "length": 14,
+      "value": "\"device-model\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2307,
+      "length": 14,
+      "value": "\"manufacturer\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2358,
+      "length": 17,
+      "value": "\"manufacturer-id\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2398,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2410,
+      "length": 13,
+      "value": "\"custom-uuid\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2452,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2464,
+      "length": 14,
+      "value": "\"is-simulator\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2480,
+      "length": 29,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2508,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Models\/Response Models\/PasswordRecoveryOtpResponseModel.swift",
@@ -6997,21 +7322,21 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/CountDownLabel.swift",
       "kind": "StringLiteral",
-      "offset": 869,
+      "offset": 863,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/CountDownLabel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1001,
+      "offset": 998,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Components\/CountDownLabel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1069,
+      "offset": 1066,
       "length": 2,
       "value": "14"
     },
@@ -7056,6 +7381,62 @@
       "offset": 611,
       "length": 2,
       "value": "24"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/OTP Login\/OTPLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/OTP Login\/OTPLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 525,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/OTP Login\/OTPLoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 604,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/OTP Login\/OTPLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/OTP Login\/OTPLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 809,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/OTP Login\/OTPLoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 923,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/OTP Login\/OTPLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1237,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/OTP Login\/OTPLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1567,
+      "length": 2,
+      "value": "13"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Screens\/Send OTP\/OTPMethodView.swift",
@@ -7179,98 +7560,168 @@
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "StringLiteral",
-      "offset": 653,
+      "offset": 633,
+      "length": 14,
+      "value": "\"X-Os-Version\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 673,
+      "length": 11,
+      "value": "\"X-Os-Name\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 16,
+      "value": "\"X-Manufacturer\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 761,
+      "length": 15,
+      "value": "\"X-Custom-Uuid\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 19,
+      "value": "\"X-Manufacturer-Id\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 854,
+      "length": 10,
+      "value": "\"X-Ads-Id\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 13,
+      "value": "\"X-Signature\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 16,
+      "value": "\"X-Is-Simulator\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 13,
+      "value": "\"X-Timestamp\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 1025,
+      "length": 15,
+      "value": "\"X-Device-Info\""
+    },
+    {
+      "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 1089,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "StringLiteral",
-      "offset": 678,
+      "offset": 1114,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "StringLiteral",
-      "offset": 704,
+      "offset": 1140,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "StringLiteral",
-      "offset": 729,
+      "offset": 1165,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "BooleanLiteral",
-      "offset": 2907,
+      "offset": 3343,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "BooleanLiteral",
-      "offset": 2945,
+      "offset": 3381,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "Dictionary",
-      "offset": 3025,
+      "offset": 3461,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "Dictionary",
-      "offset": 3074,
+      "offset": 3510,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "Dictionary",
-      "offset": 3119,
+      "offset": 3555,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "BooleanLiteral",
-      "offset": 3179,
+      "offset": 3615,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "BooleanLiteral",
-      "offset": 3219,
+      "offset": 3655,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "Dictionary",
-      "offset": 3303,
+      "offset": 3739,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "Dictionary",
-      "offset": 3354,
+      "offset": 3790,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Networks\/Endpoint.swift",
       "kind": "Dictionary",
-      "offset": 3401,
+      "offset": 3837,
       "length": 3,
       "value": "[]"
     },
