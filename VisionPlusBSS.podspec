@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                       = 'VisionPlusBSS'
-    spec.version                    = '1.8.1'
+    spec.version                    = '1.8.2'
     spec.license                    = { :type => 'EULA' }
     spec.homepage                   = 'https://github.com/visionplus-development/visionplus-bss-ios-sdk'
     spec.summary                    = 'VisionPlusBSS is Business Support System for internal usage and partners'
