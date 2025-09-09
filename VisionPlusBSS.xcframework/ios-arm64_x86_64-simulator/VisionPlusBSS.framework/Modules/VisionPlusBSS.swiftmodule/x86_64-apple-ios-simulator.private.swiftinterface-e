@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VisionPlusBSS
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VisionPlusBSS
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AdSupport
 import AppTrackingTransparency
 import AuthenticationServices
@@ -11,6 +11,7 @@ import CoreLocation
 import CryptoKit
 import Foundation
 import SafariServices
+import StoreKit
 import Swift
 import UIKit.UIGeometry
 import UIKit
@@ -19,21 +20,18 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum VPUserDefaultKeys : Swift.String {
-  case location
-  case ip
-  case country
-  case deviceID
-  case adsID
+public struct EmergencyModeModel : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum IARState : Swift.String, Swift.Codable {
+  case dialog
+  case off
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
-}
-public struct EmergencyModeModel : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ConfigModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -77,6 +75,8 @@ extension VisionPlusBSS.VisionPlusBSS {
   public func pushVerifyLinkScreen(_ navigation: UIKit.UINavigationController?, animated: Swift.Bool = true, sessionId: Swift.String, identity: Swift.String)
   public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
   public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
+  public func setSubscriberID(subscriberID: Swift.String?)
+  public func subscribeFirestore()
 }
 public protocol VPAuthDelegate : AnyObject {
   func didAuthenticationSuccess(token: Swift.String, provider: VisionPlusBSS.VPAuthProvider, info: [Swift.String : Any])
@@ -89,9 +89,9 @@ public struct CountryModel : Swift.Decodable, Swift.Equatable {
   public static func == (a: VisionPlusBSS.CountryModel, b: VisionPlusBSS.CountryModel) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
-extension VisionPlusBSS.VPUserDefaultKeys : Swift.Equatable {}
-extension VisionPlusBSS.VPUserDefaultKeys : Swift.Hashable {}
-extension VisionPlusBSS.VPUserDefaultKeys : Swift.RawRepresentable {}
+extension VisionPlusBSS.IARState : Swift.Equatable {}
+extension VisionPlusBSS.IARState : Swift.Hashable {}
+extension VisionPlusBSS.IARState : Swift.RawRepresentable {}
 extension VisionPlusBSS.VPAuthProvider : Swift.Equatable {}
 extension VisionPlusBSS.VPAuthProvider : Swift.Hashable {}
 extension VisionPlusBSS.VPAuthProvider : Swift.RawRepresentable {}
