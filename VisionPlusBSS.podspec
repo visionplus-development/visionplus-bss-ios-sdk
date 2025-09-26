@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                       = 'VisionPlusBSS'
-    spec.version                    = '1.9.1'
+    spec.version                    = '1.9.2'
     spec.license                    = { :type => 'EULA' }
     spec.homepage                   = 'https://github.com/visionplus-development/visionplus-bss-ios-sdk'
     spec.summary                    = 'VisionPlusBSS is Business Support System for internal usage and partners'
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
         :tag => spec.version.to_s
     }
     spec.vendored_frameworks        = 'VisionPlusBSS.xcframework'
-    spec.ios.deployment_target      = '13.0'
+    spec.ios.deployment_target      = '16.0'
     spec.swift_versions             = '5.0'
     spec.authors                    = {
         'Erwindo Sianipar' => 'erwindo.sianipar@mncgroup.com',

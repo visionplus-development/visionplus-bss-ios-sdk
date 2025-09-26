@@ -7226,7 +7226,7 @@
       "kind": "StringLiteral",
       "offset": 558,
       "length": 7,
-      "value": "\"1.8.2\""
+      "value": "\"1.9.2\""
     },
     {
       "filePath": "\/Users\/erwindosianipar\/Documents\/ios-auth-sdk\/VisionPlusBSS\/Utils\/Constants\/AppConstants.swift",
