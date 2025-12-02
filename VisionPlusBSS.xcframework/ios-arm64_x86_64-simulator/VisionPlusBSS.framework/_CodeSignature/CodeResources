@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FQjH0q30ldfWBJhAW7kf4s7JeNM=
+		IHxoV/P6QNdLSEwy89W5hWh6kLM=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ben2RDuHf1ZvuTpty/ZFsvXfOVs=
+		ZQsLzSvr9FsMd9c/szgXtxdlFOI=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FQjH0q30ldfWBJhAW7kf4s7JeNM=
+		IHxoV/P6QNdLSEwy89W5hWh6kLM=
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1MCMVu1eJGT3JsC1fRVblV2UAn4=
+		e8LgGZ7+H86kSmhlctqIJOzWTwA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,6 +69,18 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>icAutoLogin@1x.png</key>
+		<data>
+		BsWsS4d//gDsgWZ/GmuKIFJig8Q=
+		</data>
+		<key>icAutoLogin@2x.png</key>
+		<data>
+		ucMyRxAT0NciJr3PxG4q0Toea5I=
+		</data>
+		<key>icAutoLogin@3x.png</key>
+		<data>
+		hgQqNMYt+UIsa2ux7cRwuIy5YfE=
+		</data>
 		<key>ic_apple_id@1x.png</key>
 		<data>
 		dX8Yyt64VjFKKRsUPVtj4hq7Tnw=
@@ -315,7 +327,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cmRetbTQur6TuIEC1hKnwsVu7/KkFjI/8puyis4XUE0=
+			GEK83Eet73PLv3EzMgLGmV+/nF+90YKRAYtmywIy6S4=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -343,14 +355,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2/uaghVgkWjmLJKIcIRsOpFDxZYjsC53jehLMjgEjuM=
+			b3szwSfu5Gs1iUrmttrXhiCNSa8Hrt4clOMbOeCpJB4=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cmRetbTQur6TuIEC1hKnwsVu7/KkFjI/8puyis4XUE0=
+			GEK83Eet73PLv3EzMgLGmV+/nF+90YKRAYtmywIy6S4=
 			</data>
 		</dict>
 		<key>Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -378,7 +390,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D4sM2T8VMRJ4QW1UNleKQhdo1vrpPSchE7UjHR/QF3k=
+			HkGkFlu/xPFsqUikFfAo/CQp/YTvNWCpxJlhVF5H8mc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -396,6 +408,27 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>icAutoLogin@1x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XhUmLgPVjVqtDj3jMg1yo37lj5bTegrLANNJuIotxMM=
+			</data>
+		</dict>
+		<key>icAutoLogin@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x1RHk0IDiCRLg8PdJRQdOpipchF1Aj+NO9TH1P/m5po=
+			</data>
+		</dict>
+		<key>icAutoLogin@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JSfxmQCdBqHeVXL/mcCJFzdYWK27wXY0rTzFmIqulro=
+			</data>
 		</dict>
 		<key>ic_apple_id@1x.png</key>
 		<dict>
