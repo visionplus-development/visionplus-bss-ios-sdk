@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		y8YKedYTNEpd6OPNN46oZQ2ix1M=
-		</data>
 		<key>ios-arm64/VisionPlusBSS.framework/Headers/VisionPlusBSS-Swift.h</key>
 		<data>
 		J4wBXtRlfc13JBY13K/82dkjunQ=
@@ -22,7 +18,7 @@
 		</data>
 		<key>ios-arm64/VisionPlusBSS.framework/Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		FQjH0q30ldfWBJhAW7kf4s7JeNM=
+		IHxoV/P6QNdLSEwy89W5hWh6kLM=
 		</data>
 		<key>ios-arm64/VisionPlusBSS.framework/Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -50,7 +46,7 @@
 		</data>
 		<key>ios-arm64/VisionPlusBSS.framework/VisionPlusBSS</key>
 		<data>
-		LRaR6BIxCEK7dRlQUpvhnZYJAFY=
+		pNYyfmEA3RvKFFulj2KJyv6Mgww=
 		</data>
 		<key>ios-arm64/VisionPlusBSS.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -61,6 +57,18 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>ios-arm64/VisionPlusBSS.framework/icAutoLogin@1x.png</key>
+		<data>
+		BsWsS4d//gDsgWZ/GmuKIFJig8Q=
+		</data>
+		<key>ios-arm64/VisionPlusBSS.framework/icAutoLogin@2x.png</key>
+		<data>
+		ucMyRxAT0NciJr3PxG4q0Toea5I=
+		</data>
+		<key>ios-arm64/VisionPlusBSS.framework/icAutoLogin@3x.png</key>
+		<data>
+		hgQqNMYt+UIsa2ux7cRwuIy5YfE=
+		</data>
 		<key>ios-arm64/VisionPlusBSS.framework/ic_apple_id@1x.png</key>
 		<data>
 		dX8Yyt64VjFKKRsUPVtj4hq7Tnw=
@@ -292,11 +300,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/DWARF/VisionPlusBSS</key>
 		<data>
-		oSOxtfyq3o4tgE+bSykNlQffwVI=
+		5JNQPuG1rMaEM0WWyesmXqhAEgk=
 		</data>
 		<key>ios-arm64/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/Relocations/aarch64/VisionPlusBSS.yml</key>
 		<data>
-		+gwwpIk5l9YM41MXs2fznan+OlA=
+		17MDSdkygdCeFcabc2mF93LzDcU=
 		</data>
 		<key>ios-arm64/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/Swift/aarch64/FBSDKLoginKit.swiftinterface</key>
 		<data>
@@ -336,7 +344,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FQjH0q30ldfWBJhAW7kf4s7JeNM=
+		IHxoV/P6QNdLSEwy89W5hWh6kLM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -360,7 +368,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FQjH0q30ldfWBJhAW7kf4s7JeNM=
+		IHxoV/P6QNdLSEwy89W5hWh6kLM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -388,11 +396,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/VisionPlusBSS</key>
 		<data>
-		niHuxGPFxraT4CxcOL3vtdmmbBU=
+		C9Ya9JKktaY10ZLGlksuE/Ty5UE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/_CodeSignature/CodeResources</key>
 		<data>
-		SAcVBZHYnb+m7UaDjUWJ0DYRfyg=
+		M4lgzcBFU3FiNLNjSu4HNeBWZHI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -403,6 +411,18 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/icAutoLogin@1x.png</key>
+		<data>
+		BsWsS4d//gDsgWZ/GmuKIFJig8Q=
+		</data>
+		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/icAutoLogin@2x.png</key>
+		<data>
+		ucMyRxAT0NciJr3PxG4q0Toea5I=
+		</data>
+		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/icAutoLogin@3x.png</key>
+		<data>
+		hgQqNMYt+UIsa2ux7cRwuIy5YfE=
+		</data>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/ic_apple_id@1x.png</key>
 		<data>
 		dX8Yyt64VjFKKRsUPVtj4hq7Tnw=
@@ -634,15 +654,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/DWARF/VisionPlusBSS</key>
 		<data>
-		ZON8c6Z3cg4AFpQfzYe2z9VQbog=
+		wl+3k8NLf6t4G/unItrLa1+70O4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/Relocations/aarch64/VisionPlusBSS.yml</key>
 		<data>
-		oLAwDOiy3I4LcfLObX9r0zsFM9U=
+		xtF16tt4Uvh3JDvoEyniXC8e4sk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/Relocations/x86_64/VisionPlusBSS.yml</key>
 		<data>
-		EmalihhcrAkUC8+7watyz3L6PZU=
+		s8JoCJ+4/CDyFM8ThR+FSPNssUc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/Swift/aarch64/FBSDKLoginKit.swiftinterface</key>
 		<data>
@@ -732,11 +752,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FQjH0q30ldfWBJhAW7kf4s7JeNM=
+			IHxoV/P6QNdLSEwy89W5hWh6kLM=
 			</data>
 			<key>hash2</key>
 			<data>
-			cmRetbTQur6TuIEC1hKnwsVu7/KkFjI/8puyis4XUE0=
+			GEK83Eet73PLv3EzMgLGmV+/nF+90YKRAYtmywIy6S4=
 			</data>
 		</dict>
 		<key>ios-arm64/VisionPlusBSS.framework/Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -809,11 +829,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LRaR6BIxCEK7dRlQUpvhnZYJAFY=
+			pNYyfmEA3RvKFFulj2KJyv6Mgww=
 			</data>
 			<key>hash2</key>
 			<data>
-			8iSQvTljweFnwgO1VKNLC5yaWbiPstnzAQaz+nB/bT8=
+			0ISrAEJDv1qJLqd2w0h/U8mM6ZDMLCFihJRUE5OihQA=
 			</data>
 		</dict>
 		<key>ios-arm64/VisionPlusBSS.framework/en.lproj/Localizable.strings</key>
@@ -828,6 +848,39 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>ios-arm64/VisionPlusBSS.framework/icAutoLogin@1x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BsWsS4d//gDsgWZ/GmuKIFJig8Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			XhUmLgPVjVqtDj3jMg1yo37lj5bTegrLANNJuIotxMM=
+			</data>
+		</dict>
+		<key>ios-arm64/VisionPlusBSS.framework/icAutoLogin@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ucMyRxAT0NciJr3PxG4q0Toea5I=
+			</data>
+			<key>hash2</key>
+			<data>
+			x1RHk0IDiCRLg8PdJRQdOpipchF1Aj+NO9TH1P/m5po=
+			</data>
+		</dict>
+		<key>ios-arm64/VisionPlusBSS.framework/icAutoLogin@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hgQqNMYt+UIsa2ux7cRwuIy5YfE=
+			</data>
+			<key>hash2</key>
+			<data>
+			JSfxmQCdBqHeVXL/mcCJFzdYWK27wXY0rTzFmIqulro=
+			</data>
 		</dict>
 		<key>ios-arm64/VisionPlusBSS.framework/ic_apple_id@1x.png</key>
 		<dict>
@@ -1451,22 +1504,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oSOxtfyq3o4tgE+bSykNlQffwVI=
+			5JNQPuG1rMaEM0WWyesmXqhAEgk=
 			</data>
 			<key>hash2</key>
 			<data>
-			eNuxTECKkutWBOmZ7BSPb5X8EM65RCfuRTkdTQNNAPE=
+			qsP7yAvN+TnPaNwoaWv2mJQZU262kdtcflAYkXaarYk=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/Relocations/aarch64/VisionPlusBSS.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+gwwpIk5l9YM41MXs2fznan+OlA=
+			17MDSdkygdCeFcabc2mF93LzDcU=
 			</data>
 			<key>hash2</key>
 			<data>
-			thAnZ9PX2X3NPDNeC272dGUN+eAPE3tH/OIeFtu09PY=
+			ra9RIcbMIx62knnlfJN+9cr987HSyNWnyUTmWaD+rUY=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/Swift/aarch64/FBSDKLoginKit.swiftinterface</key>
@@ -1572,11 +1625,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FQjH0q30ldfWBJhAW7kf4s7JeNM=
+			IHxoV/P6QNdLSEwy89W5hWh6kLM=
 			</data>
 			<key>hash2</key>
 			<data>
-			cmRetbTQur6TuIEC1hKnwsVu7/KkFjI/8puyis4XUE0=
+			GEK83Eet73PLv3EzMgLGmV+/nF+90YKRAYtmywIy6S4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/Modules/VisionPlusBSS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1638,11 +1691,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FQjH0q30ldfWBJhAW7kf4s7JeNM=
+			IHxoV/P6QNdLSEwy89W5hWh6kLM=
 			</data>
 			<key>hash2</key>
 			<data>
-			cmRetbTQur6TuIEC1hKnwsVu7/KkFjI/8puyis4XUE0=
+			GEK83Eet73PLv3EzMgLGmV+/nF+90YKRAYtmywIy6S4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/Modules/VisionPlusBSS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1715,22 +1768,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			niHuxGPFxraT4CxcOL3vtdmmbBU=
+			C9Ya9JKktaY10ZLGlksuE/Ty5UE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ccf+GszSJKkn3+DxbEXWJfLg925KKzf22eR75S8yEb0=
+			Bb7SVIzaYMei9byzclzsGxPIgxhTvpOszLFSmwdogYY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SAcVBZHYnb+m7UaDjUWJ0DYRfyg=
+			M4lgzcBFU3FiNLNjSu4HNeBWZHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			JdRkGbvElicl9lCqZPKiWtUO2zkQy+cQYRuXaLOvdCg=
+			mWkLxvIRkBXGBVa3cuASqTTIxU6tSbA5t9DyHiimbVU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/en.lproj/Localizable.strings</key>
@@ -1745,6 +1798,39 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/icAutoLogin@1x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BsWsS4d//gDsgWZ/GmuKIFJig8Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			XhUmLgPVjVqtDj3jMg1yo37lj5bTegrLANNJuIotxMM=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/icAutoLogin@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ucMyRxAT0NciJr3PxG4q0Toea5I=
+			</data>
+			<key>hash2</key>
+			<data>
+			x1RHk0IDiCRLg8PdJRQdOpipchF1Aj+NO9TH1P/m5po=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/icAutoLogin@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hgQqNMYt+UIsa2ux7cRwuIy5YfE=
+			</data>
+			<key>hash2</key>
+			<data>
+			JSfxmQCdBqHeVXL/mcCJFzdYWK27wXY0rTzFmIqulro=
+			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/VisionPlusBSS.framework/ic_apple_id@1x.png</key>
 		<dict>
@@ -2368,33 +2454,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZON8c6Z3cg4AFpQfzYe2z9VQbog=
+			wl+3k8NLf6t4G/unItrLa1+70O4=
 			</data>
 			<key>hash2</key>
 			<data>
-			7LeI+VtqOV2yJ7rDAQL4UFLxs/n3yxq/nKxLiL83eME=
+			1NUabfBHWXlOjXykcxp7+c5qqHL7n5oGIOkVIkU+6ZI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/Relocations/aarch64/VisionPlusBSS.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oLAwDOiy3I4LcfLObX9r0zsFM9U=
+			xtF16tt4Uvh3JDvoEyniXC8e4sk=
 			</data>
 			<key>hash2</key>
 			<data>
-			dqAKa246R6n+IC3y8Ckxl6pDqRJeKV+lMwpLio0NzjE=
+			+8DzZNGy3S289VFSoBJwJAvIctDGtz+QuwggafYi8O8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/Relocations/x86_64/VisionPlusBSS.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EmalihhcrAkUC8+7watyz3L6PZU=
+			s8JoCJ+4/CDyFM8ThR+FSPNssUc=
 			</data>
 			<key>hash2</key>
 			<data>
-			klk/3k0Ziy3KbjKpTfvv4UWwgviHABH1Xnm3VUQNO/I=
+			gAV9H/mQ9b3m+9L1w4hjWqtmFjQJqe0jgl5URF8MXj8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VisionPlusBSS.framework.dSYM/Contents/Resources/Swift/aarch64/FBSDKLoginKit.swiftinterface</key>
