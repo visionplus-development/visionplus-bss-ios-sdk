@@ -33,6 +33,10 @@ public enum IARState : Swift.String, Swift.Codable {
     get
   }
 }
+public struct ConfigProductionModel : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct ConfigModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws

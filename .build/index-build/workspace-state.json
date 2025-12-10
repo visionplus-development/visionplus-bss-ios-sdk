@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "visionplus-bss-ios-sdk",
+          "kind" : "root",
+          "location" : "/Users/erwindosianipar/Documents/visionplus-bss-ios-sdk",
+          "name" : "visionplus-bss-ios-sdk"
+        },
+        "path" : "/Users/erwindosianipar/Documents/visionplus-bss-ios-sdk/VisionPlusBSS.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "VisionPlusBSS"
+      }
+    ],
+    "dependencies" : [
+
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}
