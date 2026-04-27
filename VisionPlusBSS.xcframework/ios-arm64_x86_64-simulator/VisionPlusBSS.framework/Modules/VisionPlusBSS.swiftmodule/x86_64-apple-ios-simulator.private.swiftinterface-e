@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VisionPlusBSS
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AdSupport
 import AppTrackingTransparency
 import AuthenticationServices
@@ -27,7 +27,9 @@ public struct EmergencyModeModel : Swift.Codable {
 public enum IARState : Swift.String, Swift.Codable {
   case dialog
   case off
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -47,7 +49,9 @@ public enum VPAuthProvider : Swift.String {
   case facebook
   case email
   case phone
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -70,16 +74,26 @@ public enum VPAuthProvider : Swift.String {
 extension VisionPlusBSS.VisionPlusBSS {
   public func loginViewController() -> UIKit.UIViewController
   public func presentLoginScreen(_ vc: UIKit.UIViewController, animated: Swift.Bool = true)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func pushLoginScreen(_ navigation: UIKit.UINavigationController?, animated: Swift.Bool = true)
+  #endif
   public func registerViewController() -> UIKit.UIViewController
   public func presentRegisterScreen(_ vc: UIKit.UIViewController, animated: Swift.Bool = true)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func pushRegisterScreen(_ navigation: UIKit.UINavigationController?, animated: Swift.Bool = true)
+  #endif
   public func verifyLinkViewController(sessionId: Swift.String, identity: Swift.String) -> UIKit.UIViewController
   public func presentVerifyLinkScreen(_ vc: UIKit.UIViewController, animated: Swift.Bool = true, sessionId: Swift.String, identity: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func pushVerifyLinkScreen(_ navigation: UIKit.UINavigationController?, animated: Swift.Bool = true, sessionId: Swift.String, identity: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  #endif
   public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setSubscriberID(subscriberID: Swift.String?)
+  #endif
   public func subscribeFirestore()
 }
 public protocol VPAuthDelegate : AnyObject {
